@@ -59,7 +59,7 @@ export default function Header() {
             }
           </style.NavList>
         </nav>
-        <a href="/">
+        <a href="/info">
           <span>INFO</span>
         </a>
       </style.Header>

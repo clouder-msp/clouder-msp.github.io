@@ -8,6 +8,7 @@ import useDropbox from 'hooks/useDropbox';
 import useTitle from 'hooks/useTitle';
 
 import { category } from 'constants/category';
+import { introduce } from 'constants/introduce';
 
 export default function IntroducePage() {
   const params = useParams();
@@ -20,12 +21,22 @@ export default function IntroducePage() {
 
   useTitle(`${name} 소개 페이지`);
 
+  console.log(introduce[name]);
+
   return (
     <style.Main>
       <style.Section1>
         <header>
           <h2>소개 섹션 1</h2>
         </header>
+        <style.Description>{introduce[name].description}</style.Description>
+        {
+          introduce[name].links.map(link => {
+            return (
+              <style.Link key={link.name} href={link.link}>{link.name}</style.Link>
+            )
+          })
+        }
         <style.Button onClick={openModal}>
           <span>생성</span>
         </style.Button>

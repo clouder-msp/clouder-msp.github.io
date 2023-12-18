@@ -1,5 +1,5 @@
 export const example = {
-  "1번": [
+  "Infra 구축 솔루션": [
     {
       "number": 1,
       "name": "1번 카테고리 사례 01",
@@ -13,7 +13,7 @@ export const example = {
       "link": "https://www.naver.com/"
     },
   ],
-  "2번": [
+  "Cloud 솔루션": [
     {
       "number": 1,
       "name": "2번 카테고리 사례 01",
@@ -27,7 +27,7 @@ export const example = {
       "link": "https://www.naver.com/"
     },
   ],
-  "3번": [
+  "K8S 솔루션": [
     {
       "number": 1,
       "name": "3번 카테고리 사례 01",

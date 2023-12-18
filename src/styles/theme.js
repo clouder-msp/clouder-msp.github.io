@@ -3,7 +3,8 @@ export const theme = {
     wrapper: "1280px"
   },
   height: {
-    header: "80px"
+    header: "80px",
+    footer: "80px"
   },
   color: {
     main: "#000",

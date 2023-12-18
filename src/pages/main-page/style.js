@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
+  min-height: ${props => `calc(100vh - ${props.theme.height.footer})`};
+
   padding-top: ${props => props.theme.height.header};
 `;
 
@@ -12,6 +14,7 @@ export const Section1 = styled.section`
   background-image: url("https://img.freepik.com/free-vector/gradient-devops-illustration_23-2149369791.jpg?w=1380&t=st=1702550829~exp=1702551429~hmac=4847b649ee9dbc24f50bcadcd60888d1e63826389959c67db2d432543e57786a");
   background-repeat: no-repeat;
   background-position: center;
+  /* background-size: cover; */
 `;
 
 export const Section2 = styled.section`
