@@ -28,23 +28,39 @@ export const Common = css`
 
   padding: 20px;
 
-  background-color: ${props => props.theme.color.main};
   border-radius: 12px;
 
   font-size: 18px;
-  color: ${props => props.theme.color.light};
   text-align: center;
 `
 
-export const Description = styled.p`
+export const Header = styled.h1`
   ${Common}
+  font-weight: 800;
+  font-size: 40px;
+`
+
+export const Description = styled.p`
+  ${Common}  
 
   padding: 20px 40px;
-
+  line-height: 1.5;
   margin-bottom: 30px;
 `;
 
-export const Link = styled.a`
+export const Link_kakao = styled.a`
+  ${Common}
+
+  margin-bottom: 20px;
+  background-color: #FEE500;
+  font-size: 28px;
+`;
+
+export const Symbol_kakao = styled.img`
+  width: 40px;
+`
+
+export const Link_google = styled.a`
   ${Common}
 
   margin-bottom: 20px;

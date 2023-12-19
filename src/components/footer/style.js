@@ -5,7 +5,7 @@ export const Warpper = styled.div`
 
   padding: 0 40px;
 
-  background-color: rebeccapurple;
+  background-color: #222222;
 `;
 
 export const Footer = styled.footer`
@@ -18,3 +18,7 @@ export const Footer = styled.footer`
   align-items: center;
   justify-content: space-between;
 `;
+
+export const TextP = styled.p`
+  color: gray;
+`

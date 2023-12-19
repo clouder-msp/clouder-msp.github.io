@@ -2,8 +2,6 @@ import useTitle from 'hooks/useTitle';
 
 import * as style from './style';
 
-import CodingImage from 'assets/images/coding.jpg';
-
 export default function MainPage() {
   useTitle("Clouder - 개발자들의 솔루션 설계/구축 비서");
 
@@ -71,7 +69,6 @@ export default function MainPage() {
           </style.InnerUL>
         </style.InnerCon3>
       </style.Section3>
-      <img src={CodingImage} alt="" />
     </style.Main>
   )
 }

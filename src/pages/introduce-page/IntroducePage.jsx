@@ -10,6 +10,8 @@ import useTitle from 'hooks/useTitle';
 import { category } from 'constants/category';
 import { introduce } from 'constants/introduce';
 
+import KakaoSymbol from 'assets/images/logo_kakao.png';
+
 export default function IntroducePage() {
   const params = useParams();
   const name = params.name;
@@ -25,23 +27,37 @@ export default function IntroducePage() {
 
   return (
     <style.Main>
+
       <style.Section1>
         <header>
           <h2>소개 섹션 1</h2>
         </header>
-        <style.Description>{introduce[name].description}</style.Description>
+        <style.Header>{name}</style.Header>
         {
+          introduce[name].description.forEach(desc => {
+            return <style.Description>{desc}</style.Description>
+          })
+        }
+
+
+        <style.Link_kakao key={introduce[name].links[0].name} href={introduce[name].links[0].link}><style.Symbol_kakao src={KakaoSymbol}></style.Symbol_kakao> {introduce[name].links[0].name}</style.Link_kakao>
+        {/* <style.Link_google key={introduce[name].links[1].name} href={introduce[name].links[1].link}>{introduce[name].links[1].name}</style.Link_google> */}
+
+        {/* {
           introduce[name].links.map(link => {
             return (
               <style.Link key={link.name} href={link.link}>{link.name}</style.Link>
             )
           })
-        }
-        <style.Button onClick={openModal}>
-          <span>생성</span>
-        </style.Button>
+        } */}
+
+
+
+        {/* <style.Button onClick={openModal}>
+          <span>이메일</span>
+        </style.Button> */}
       </style.Section1>
-      <Modal>
+      {/* <Modal>
         <style.ModalWrapper onClick={closeDropbox}>
           <style.ModalHeader>
             <h2>생성 모달</h2>
@@ -90,7 +106,7 @@ export default function IntroducePage() {
             </style.ModalButtonWrapper>
           </style.ModalForm>
         </style.ModalWrapper>
-      </Modal>
+      </Modal> */}
     </style.Main>
   )
 }
