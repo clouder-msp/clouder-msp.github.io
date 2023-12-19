@@ -34,6 +34,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html {
+    overflow-x: hidden;
+
     &::-webkit-scrollbar {
       width: 10px;
       background-color: #eee;

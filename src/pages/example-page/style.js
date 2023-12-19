@@ -2,6 +2,8 @@ import styled from "styled-components";
 import IROnly from "styles/IROnly";
 
 export const Main = styled.main`
+  min-height: ${props => `calc(100vh - ${props.theme.height.footer})`};
+
   padding-top: ${props => props.theme.height.header};
 `;
 
@@ -28,7 +30,7 @@ export const List = styled.ul`
 export const ListItem = styled.li`
   width: 100%;
 
-  padding: 12px 0;
+  padding: 16px 0;
 
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 2fr;

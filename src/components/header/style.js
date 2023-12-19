@@ -20,7 +20,7 @@ export const Warpper = styled.div`
 
 export const Header = styled.header`
   max-width: ${props => props.theme.width.wrapper};
-  height: ${props => props.theme.height.headisplayder};
+  height: ${props => props.theme.height.header};
 
   margin: 0 auto;
 

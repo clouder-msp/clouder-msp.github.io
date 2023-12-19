@@ -9,7 +9,7 @@ export default function MainPage() {
     <style.Main>
       <style.Section1>
       </style.Section1>
-      
+
       <style.Section2>
         <style.InnerCon2>
           <style.InnerHeader2>Clouder란?</style.InnerHeader2>

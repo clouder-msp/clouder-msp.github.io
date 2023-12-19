@@ -2,6 +2,8 @@ import styled, { css } from "styled-components";
 import IROnly from "styles/IROnly";
 
 export const Main = styled.main`
+  min-height: ${props => `calc(100vh - ${props.theme.height.footer})`};
+
   padding-top: ${props => props.theme.height.header};
 `;
 
@@ -21,18 +23,51 @@ export const Section1 = styled.section`
   }
 `;
 
-export const Button = styled.button`
+export const Common = css`
   width: 800px;
 
-  padding: 20px 0;
+  padding: 20px;
 
-  background-color: ${props => props.theme.color.main};
   border-radius: 12px;
 
-  & > span {
-    font-size: 18px;
-    color: ${props => props.theme.color.light};
-  }
+  font-size: 18px;
+  text-align: center;
+`
+
+export const Header = styled.h1`
+  ${Common}
+  font-weight: 800;
+  font-size: 40px;
+`
+
+export const Description = styled.p`
+  ${Common}  
+
+  padding: 20px 40px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+`;
+
+export const Link_kakao = styled.a`
+  ${Common}
+
+  margin-bottom: 20px;
+  background-color: #FEE500;
+  font-size: 28px;
+`;
+
+export const Symbol_kakao = styled.img`
+  width: 40px;
+`
+
+export const Link_google = styled.a`
+  ${Common}
+
+  margin-bottom: 20px;
+`;
+
+export const Button = styled.button`
+  ${Common}
 `;
 
 export const ModalWrapper = styled.div`
