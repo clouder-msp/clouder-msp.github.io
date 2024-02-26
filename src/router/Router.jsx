@@ -12,7 +12,7 @@ const InfoPage = lazy(() => import("pages/info-page/InfoPage"));
 
 export default function Router() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Suspense fallback={<></>}>
         <Routes>
