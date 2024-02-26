@@ -9,7 +9,15 @@ import { GlobalStyle } from "styles/GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import { theme } from "styles/theme";
 
+import React, { useEffect } from 'react';
+import favicon from "assets/images/clouder-icon.ico"
+
 function App() {
+  useEffect(() => {
+    const link = document.querySelector("link[rel~='icon']");
+    link.href = favicon;
+  }, []);
+
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>

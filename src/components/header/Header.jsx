@@ -7,6 +7,9 @@ import * as style from './style';
 
 import { navigationList, navigationDetail } from 'constants/navigation';
 
+import logo_light from "assets/images/clouder-logo-light.png"
+import logo_dark from "assets/images/clouder-logo.png" 
+
 export default function Header() {
   const location = useLocation();
 
@@ -43,7 +46,7 @@ export default function Header() {
       <style.Header>
         <style.H1>
           <a href="/">
-            <span>Clouder</span>
+            {flag?<style.Logo src={logo_light}/>:<style.Logo src={logo_dark}/>}
           </a>
         </style.H1>
         <nav>

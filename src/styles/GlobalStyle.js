@@ -1,12 +1,20 @@
 import { createGlobalStyle } from "styled-components";
 import { reset } from "styled-reset";
 
+import NanumR from "../assets/fonts/NanumSquareR.woff";
+
 export const GlobalStyle = createGlobalStyle`
   ${reset}
 
+  @font-face {
+    font-family: "nanum";
+    src: local("nanum"), url(${NanumR}) format('woff'); 
+    font-weight: normal;
+  }
+
   *, *::before, *::after {
     box-sizing: border-box;
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: "nanum";
   }
 
   li {

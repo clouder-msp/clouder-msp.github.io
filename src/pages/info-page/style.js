@@ -4,6 +4,7 @@ export const Main = styled.main`
   min-height: ${props => `calc(100vh - ${props.theme.height.footer})`};
   
   padding-top: ${props => props.theme.height.header};
+  font-family: "nanum";
 `;
 
 export const Section1 = styled.section`
@@ -19,9 +20,14 @@ export const Section1 = styled.section`
   align-items: center;
 `;
 
-
 export const InnerCon1 = styled.div`
   margin: 0 auto;
   max-width: 1260px;
   text-align: left;
+`
+
+export const InnerText = styled.p`
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
 `

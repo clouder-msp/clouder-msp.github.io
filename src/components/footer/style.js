@@ -14,11 +14,14 @@ export const Footer = styled.footer`
 
   margin: 0 auto;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 `;
 
-export const TextP = styled.p`
+export const TextP1 = styled.p`
+  color: white;
+`
+export const TextP2 = styled.p`
   color: gray;
 `
+
+export const Contact = styled.a`
+color: lightgray`

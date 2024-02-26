@@ -42,3 +42,7 @@ export const NavList = styled.ul`
   align-items: center;
   gap: 40px;
 `
+
+export const Logo = styled.img`
+  height: 60px;
+`

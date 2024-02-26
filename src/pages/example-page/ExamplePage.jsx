@@ -16,29 +16,26 @@ export default function ExamplePage() {
   return (
     <style.Main>
       <style.Section1>
-        <header>
-          <h2>섹션 1</h2>
-        </header>
-        <style.List>
-          <style.ListItem>
-            <p>No</p>
-            <p>이름</p>
-            <p>구분</p>
-            <p>링크</p>
-          </style.ListItem>
+        <style.Table>
+          <style.TableRow>
+            <style.TableHeader>No</style.TableHeader>
+            <style.TableHeader>이름</style.TableHeader>
+            <style.TableHeader>구분</style.TableHeader>
+            <style.TableHeader>링크</style.TableHeader>
+          </style.TableRow>
           {
             example[name].map((e) => {
               return (
-                <style.ListItem key={e.name}>
-                  <p>{e.number}</p>
-                  <p>{e.name}</p>
-                  <p>{e.category}</p>
-                  <Link to={e.link}>{e.link}</Link>
-                </style.ListItem>
+                <style.TableRow key={e.name}>
+                  <style.TableData>{e.number}</style.TableData>
+                  <style.TableData>{e.name}</style.TableData>
+                  <style.TableData>{e.category}</style.TableData>
+                  <style.TableData><Link to={e.link}>{e.link}</Link></style.TableData>
+                </style.TableRow>
               )
             })
           }
-        </style.List>
+        </style.Table>
       </style.Section1>
     </style.Main>
   )

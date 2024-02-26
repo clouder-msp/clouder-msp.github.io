@@ -34,13 +34,13 @@ export default function IntroducePage() {
         </header>
         <style.Header>{name}</style.Header>
         {
-          introduce[name].description.forEach(desc => {
+          introduce[name].description.map(desc => {
             return <style.Description>{desc}</style.Description>
           })
         }
 
 
-        <style.Link_kakao key={introduce[name].links[0].name} href={introduce[name].links[0].link}><style.Symbol_kakao src={KakaoSymbol}></style.Symbol_kakao> {introduce[name].links[0].name}</style.Link_kakao>
+        <style.Link_kakao key={introduce[name].links[0].name} href={introduce[name].links[0].link} rel="noopener noreferrer" target="_blank"><style.Symbol_kakao src={KakaoSymbol}></style.Symbol_kakao> {introduce[name].links[0].name}</style.Link_kakao>
         {/* <style.Link_google key={introduce[name].links[1].name} href={introduce[name].links[1].link}>{introduce[name].links[1].name}</style.Link_google> */}
 
         {/* {

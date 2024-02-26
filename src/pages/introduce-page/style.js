@@ -5,6 +5,7 @@ export const Main = styled.main`
   min-height: ${props => `calc(100vh - ${props.theme.height.footer})`};
 
   padding-top: ${props => props.theme.height.header};
+  font-family: "nanum";
 `;
 
 export const Section1 = styled.section`
@@ -41,11 +42,11 @@ export const Header = styled.h1`
 `
 
 export const Description = styled.p`
-  ${Common}  
+  ${Common}
 
   padding: 20px 40px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `;
 
 export const Link_kakao = styled.a`
@@ -54,10 +55,14 @@ export const Link_kakao = styled.a`
   margin-bottom: 20px;
   background-color: #FEE500;
   font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Symbol_kakao = styled.img`
   width: 40px;
+  margin: 0 20px;
 `
 
 export const Link_google = styled.a`
