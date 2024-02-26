@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Layout from "layout/Layout";
 
@@ -12,7 +12,7 @@ const InfoPage = lazy(() => import("pages/info-page/InfoPage"));
 
 export default function Router() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ScrollToTop />
       <Suspense fallback={<></>}>
         <Routes>
@@ -24,6 +24,6 @@ export default function Router() {
           </Route>
         </Routes>
       </Suspense>
-    </HashRouter>
+    </BrowserRouter>
   )
 }

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import NavigationDropbox from 'components/dropbox/navigation-dropbox/navigationDropbox';
 
@@ -62,9 +62,9 @@ export default function Header() {
             }
           </style.NavList>
         </nav>
-        <a href="/info">
+        <Link to="/info">
           <span>INFO</span>
-        </a>
+        </Link>
       </style.Header>
     </style.Warpper>
   )
