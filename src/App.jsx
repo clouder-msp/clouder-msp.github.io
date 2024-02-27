@@ -10,7 +10,7 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "styles/theme";
 
 import React, { useEffect } from 'react';
-import favicon from "assets/images/clouder-icon.ico"
+import favicon from "assets/images/favicon.ico"
 
 function App() {
   useEffect(() => {
