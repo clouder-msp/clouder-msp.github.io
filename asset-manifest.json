@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.d57e852f.js",
+    "main.js": "/static/js/main.849c79f9.js",
     "static/js/297.ae777556.chunk.js": "/static/js/297.ae777556.chunk.js",
     "static/js/694.0d3ba20b.chunk.js": "/static/js/694.0d3ba20b.chunk.js",
     "static/js/947.b344804a.chunk.js": "/static/js/947.b344804a.chunk.js",
     "static/js/701.e52fb0b0.chunk.js": "/static/js/701.e52fb0b0.chunk.js",
     "static/media/NanumSquareR.woff": "/static/media/NanumSquareR.99d675599ff36e82677e.woff",
+    "static/media/favicon.ico": "/static/media/favicon.39c214ba652a343e3863.ico",
     "static/media/idx_maintain.png": "/static/media/idx_maintain.0ddfdb9a843d8aa9cbf5.png",
     "static/media/logo_kakao.png": "/static/media/logo_kakao.67abb63e57aacaeb078f.png",
     "static/media/idx_consulting.png": "/static/media/idx_consulting.ea535ca42b97e8c643ec.png",
@@ -13,15 +14,14 @@
     "static/media/idx_architecting.png": "/static/media/idx_architecting.f012760908a352c4755c.png",
     "static/media/clouder-logo-light.png": "/static/media/clouder-logo-light.8548d84fa0d8e5b7964d.png",
     "static/media/clouder-logo.png": "/static/media/clouder-logo.2bba5263566f58ca49a4.png",
-    "static/media/clouder-icon.ico": "/static/media/clouder-icon.da2f23b1aa7cafe23d4e.ico",
     "index.html": "/index.html",
-    "main.d57e852f.js.map": "/static/js/main.d57e852f.js.map",
+    "main.849c79f9.js.map": "/static/js/main.849c79f9.js.map",
     "297.ae777556.chunk.js.map": "/static/js/297.ae777556.chunk.js.map",
     "694.0d3ba20b.chunk.js.map": "/static/js/694.0d3ba20b.chunk.js.map",
     "947.b344804a.chunk.js.map": "/static/js/947.b344804a.chunk.js.map",
     "701.e52fb0b0.chunk.js.map": "/static/js/701.e52fb0b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d57e852f.js"
+    "static/js/main.849c79f9.js"
   ]
 }
