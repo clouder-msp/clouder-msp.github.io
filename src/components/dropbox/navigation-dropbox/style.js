@@ -28,7 +28,7 @@ export const List = styled.ul`
 `;
 
 export const ListLink = styled(Link)`
-  width: 120px;
+  width: 8vw;
 
   padding: 8px 0;
 

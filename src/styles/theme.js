@@ -4,7 +4,7 @@ export const theme = {
   },
   height: {
     header: "4vw",
-    footer: "10vw"
+    footer: "10vh"
   },
   color: {
     main: "#000",

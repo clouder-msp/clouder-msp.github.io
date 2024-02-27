@@ -59,7 +59,7 @@ export const InnerCon3 = styled.div`
 export const InnerHeader3 = styled.h2`
   font-size: 3vw;
   font-weight: 700;
-  padding-bottom: 6vh
+  padding-bottom: 4vw
 `
 export const InnerText3 = styled.p`
   font-size: 1vw;
@@ -72,16 +72,16 @@ export const InnerUL = styled.ul`
 `
 
 export const InnerLI1 = styled.li`
-  margin-top: 6vh;
+  margin-top: 3vw;
 `
 export const InnerLI2 = styled.li`
-  margin-top: 6vh;
+  margin-top: 3vw;
 `
 export const InnerLI3 = styled.li`
-  margin-top: 6vh;
+  margin-top: 3vw;
 `
 export const InnerLI4 = styled.li`
-  margin-top: 6vh;
+  margin-top: 3vw;
 `
 
 export const InnerLITitle = styled.h4`
