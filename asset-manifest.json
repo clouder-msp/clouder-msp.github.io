@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.6a7ea3ab.js",
-    "static/js/297.930c1973.chunk.js": "/static/js/297.930c1973.chunk.js",
+    "main.js": "/static/js/main.d57e852f.js",
+    "static/js/297.ae777556.chunk.js": "/static/js/297.ae777556.chunk.js",
     "static/js/694.0d3ba20b.chunk.js": "/static/js/694.0d3ba20b.chunk.js",
     "static/js/947.b344804a.chunk.js": "/static/js/947.b344804a.chunk.js",
     "static/js/701.e52fb0b0.chunk.js": "/static/js/701.e52fb0b0.chunk.js",
@@ -15,13 +15,13 @@
     "static/media/clouder-logo.png": "/static/media/clouder-logo.2bba5263566f58ca49a4.png",
     "static/media/clouder-icon.ico": "/static/media/clouder-icon.da2f23b1aa7cafe23d4e.ico",
     "index.html": "/index.html",
-    "main.6a7ea3ab.js.map": "/static/js/main.6a7ea3ab.js.map",
-    "297.930c1973.chunk.js.map": "/static/js/297.930c1973.chunk.js.map",
+    "main.d57e852f.js.map": "/static/js/main.d57e852f.js.map",
+    "297.ae777556.chunk.js.map": "/static/js/297.ae777556.chunk.js.map",
     "694.0d3ba20b.chunk.js.map": "/static/js/694.0d3ba20b.chunk.js.map",
     "947.b344804a.chunk.js.map": "/static/js/947.b344804a.chunk.js.map",
     "701.e52fb0b0.chunk.js.map": "/static/js/701.e52fb0b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.6a7ea3ab.js"
+    "static/js/main.d57e852f.js"
   ]
 }
