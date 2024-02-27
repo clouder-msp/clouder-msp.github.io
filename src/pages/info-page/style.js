@@ -10,8 +10,8 @@ export const Main = styled.main`
 export const Section1 = styled.section`
   width: 100vw;
 
-  padding-top: 125px;
-  padding-bottom: 130px;
+  padding-top: 12vh;
+  padding-bottom: 13vh;
 
   background-color: ${props => props.theme.color.light};
 
@@ -22,12 +22,12 @@ export const Section1 = styled.section`
 
 export const InnerCon1 = styled.div`
   margin: 0 auto;
-  max-width: 1260px;
+  max-width: 70vw;
   text-align: left;
 `
 
 export const InnerText = styled.p`
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 1.3vw;
+  margin-top: 2vh;
   text-align: center;
 `

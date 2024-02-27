@@ -44,7 +44,7 @@ export const NavList = styled.ul`
 `
 
 export const Logo = styled.img`
-  width: 8vw;
+  width: 6vw;
 `
 
 export const NavText = styled.p`

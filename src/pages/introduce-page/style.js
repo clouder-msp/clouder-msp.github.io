@@ -11,7 +11,7 @@ export const Main = styled.main`
 export const Section1 = styled.section`
   width: 100vw;
 
-  padding: 50px;
+  padding: 5vw;
 
   background-color: ${props => props.theme.color.light};
 
@@ -25,44 +25,43 @@ export const Section1 = styled.section`
 `;
 
 export const Common = css`
-  width: 800px;
+  width: 60vw;
 
-  padding: 20px;
+  padding: 1.5vw;
 
   border-radius: 12px;
 
-  font-size: 18px;
+  font-size: 1.3vw;
   text-align: center;
 `
 
 export const Header = styled.h1`
   ${Common}
   font-weight: 800;
-  font-size: 40px;
+  font-size: 3vw;
 `
 
 export const Description = styled.p`
   ${Common}
 
-  padding: 20px 40px;
+  padding: 1.5vw 3vw;
   line-height: 1.5;
-  margin-bottom: 20px;
 `;
 
 export const Link_kakao = styled.a`
   ${Common}
-
-  margin-bottom: 20px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background-color: #FEE500;
-  font-size: 28px;
+  font-size: 2vw;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 export const Symbol_kakao = styled.img`
-  width: 40px;
-  margin: 0 20px;
+  width: 3vw;
+  margin: 0 2vw;
 `
 
 export const Link_google = styled.a`

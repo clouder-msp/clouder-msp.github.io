@@ -31,17 +31,17 @@ export const Section2 = styled.section`
 
 export const InnerCon2 = styled.div`
   margin: 0 auto;
-  max-width: 1260px;
+  max-width: 70vw;
   text-align: right;
 `
 
 export const InnerHeader2 = styled.h2`
-  font-size: 48px;
+  font-size: 3vw;
   font-weight: 700;
-  padding-bottom: 60px
+  padding-bottom: 6vh
 `
 export const InnerText2 = styled.p`
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 500;
   color: #555555;
   line-height: 1.6;
@@ -53,16 +53,16 @@ export const Section3 = styled.section`
 
 export const InnerCon3 = styled.div`
   margin: 0 auto;
-  max-width: 1260px;
+  max-width: 70vw;
 `
 
 export const InnerHeader3 = styled.h2`
-  font-size: 48px;
+  font-size: 3vw;
   font-weight: 700;
-  padding-bottom: 60px
+  padding-bottom: 6vh
 `
 export const InnerText3 = styled.p`
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 500;
   color: #555555;
   line-height: 1.6;
@@ -72,33 +72,33 @@ export const InnerUL = styled.ul`
 `
 
 export const InnerLI1 = styled.li`
-  margin-top: 60px;
+  margin-top: 6vh;
 `
 export const InnerLI2 = styled.li`
-  margin-top: 60px;
+  margin-top: 6vh;
 `
 export const InnerLI3 = styled.li`
-  margin-top: 60px;
+  margin-top: 6vh;
 `
 export const InnerLI4 = styled.li`
-  margin-top: 60px;
+  margin-top: 6vh;
 `
 
 export const InnerLITitle = styled.h4`
-  font-size: 32px;  
-  font-weight: 700;
-  margin-left: 160px;
-  margin-bottom: 10px;
-  padding-bottom: 12px;
+  font-size: 1.5vw;  
+  font-weight: bold;
+  margin-left: 8vw;
+  margin-bottom: 1vh;
+  padding-bottom: 1.2vh;
 `
 
 export const InnerLIText = styled.p`
-  font-size: 16px;
-  margin-left: 160px;
+  font-size: 0.9vw;
+  margin-left: 8vw;
 `
 export const InnerLIImage = styled.img`
   position: absolute;
-  width: 120px;
-  margin-top: 5px;
-  margin-left: 20px;
+  width: 6vw;
+  margin-top: 0.5vh;
+  margin-left: 1vw;
 `

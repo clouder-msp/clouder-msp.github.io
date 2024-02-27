@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Warpper = styled.div`
   width: 100vw;
 
-  padding: 0 40px;
+  padding: 0 4vh;
 
   background-color: #222222;
 `;

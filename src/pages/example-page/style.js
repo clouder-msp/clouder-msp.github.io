@@ -11,7 +11,7 @@ export const Main = styled.main`
 export const Section1 = styled.section`
   max-width: ${props => props.theme.width.wrapper};
 
-  margin: 50px auto 0;
+  margin: 5vh auto 0;
 
   & > header {
     ${IROnly}
@@ -31,7 +31,7 @@ color: ${props => props.theme.color.light};
 
 & > p, 
 & > a {
-  font-size: 18px;
+  font-size: 1.2vw;
 
   text-align: center;
 }
@@ -51,7 +51,7 @@ export const Table = styled.table`
   background: white;
   border-radius:3px;
   border-collapse: collapse;
-  max-width: 800px;
+  max-width: 60vw;
   padding:5px;
   width: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -104,9 +104,9 @@ export const TableHeader = styled.th`
   background:#1b1e24;
   border-bottom:4px solid #9ea7af;
   border-right: 1px solid #343a45;
-  font-size:23px;
+  font-size:1.2vw;
   font-weight: 100;
-  padding:24px;
+  padding:1.2vw;
   text-align:left;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align:middle;
@@ -115,11 +115,11 @@ export const TableHeader = styled.th`
 
 export const TableData = styled.td`
   background:#FFFFFF;
-  padding:20px;
+  padding: 1vw;
   text-align:left;
   vertical-align:middle;
   font-weight:300;
-  font-size:18px;
+  font-size:1vw;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
   border-right: 1px solid #C1C3D1;
 `

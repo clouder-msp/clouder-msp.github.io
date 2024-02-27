@@ -3,7 +3,7 @@ export const theme = {
     wrapper: "80vw"
   },
   height: {
-    header: "8vw",
+    header: "4vw",
     footer: "10vw"
   },
   color: {
