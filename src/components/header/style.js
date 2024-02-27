@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Warpper = styled.div`
   width: 100vw;
 
-  padding: 0 40px;
+  padding: 0 10vw;
 
   position: fixed;
   
@@ -40,9 +40,13 @@ export const H1 = styled.h1`
 export const NavList = styled.ul`
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 4vw;
 `
 
 export const Logo = styled.img`
-  height: 60px;
+  width: 8vw;
+`
+
+export const NavText = styled.p`
+
 `

@@ -1,10 +1,10 @@
 export const theme = {
   width: {
-    wrapper: "1280px"
+    wrapper: "80vw"
   },
   height: {
-    header: "80px",
-    footer: "120px"
+    header: "8vw",
+    footer: "10vw"
   },
   color: {
     main: "#000",
@@ -12,7 +12,7 @@ export const theme = {
     shadow: "#E4E4E4"
   },
   fontSize: {
-    title: "24px",
-    navigation: "18px",
+    title: "1.2vw",
+    navigation: "1vw",
   }
 };

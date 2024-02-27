@@ -20,14 +20,13 @@ export const Section1 = styled.section`
 
 export const Welcome = styled.h1`
   text-align: center;
-  font-size: 60px;
+  font-size: 4vw;
   color: white;
   margin: auto;
 `
 
 export const Section2 = styled.section`
-  padding-top: 125px;
-  padding-bottom: 130px;
+  padding: 12vh 5vw 4vh 5vw;
 `;
 
 export const InnerCon2 = styled.div`
@@ -49,8 +48,7 @@ export const InnerText2 = styled.p`
 `
 
 export const Section3 = styled.section`
-  padding-top: 125px;
-  padding-bottom: 130px;
+  padding: 8vh 5vw 8vh 5vw;
 `;
 
 export const InnerCon3 = styled.div`
